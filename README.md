@@ -6,7 +6,7 @@
 
 [![Clean Blog Preview](https://startbootstrap.com/assets/img/templates/clean-blog.jpg)](https://blackrockdigital.github.io/startbootstrap-clean-blog/)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-clean-blog/)**
+**[View Live Preview](http://juliearroyo.com/Ideas-Needed/)**
 
 ## Status
 
