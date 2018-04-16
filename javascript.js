@@ -3,6 +3,6 @@ var styles=[
 'Pop Art', 'Modern', 'Contemporary', 'Fantasy', 'Graffiti']
 
 function newStyle(){
-  var randomNumber = Math.floor(Math.random) * (styles.length));
+  var randomNumber = Math.floor(Math.random() * (styles.length));
   document.getElementById('styleDisplay').innerHTML = styles[randomNumber];
 }
