@@ -41,6 +41,10 @@ blockquote {
   font-weight: 700;
   margin-top: 60px; }
 
+#subjectDisplay{
+  margin-bottom:20px;
+}
+
 .caption {
   font-size: 14px;
   font-style: italic;
@@ -287,6 +291,7 @@ footer {
     text-align: center; }
 
 .btn {
+  margin-top:20px;
   font-size: 14px;
   font-weight: 800;
   padding: 15px 25px;
@@ -296,6 +301,7 @@ footer {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 .btn-primary {
+    margin-top:20px;
   background-color: #0085A1;
   border-color: #0085A1; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
