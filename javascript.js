@@ -1,3 +1,15 @@
+//Mediums
+var mediums=[
+  'Pencil', 'Colored Pencil', 'Marker', 'Chalk', 'Pastel',
+'Pen', 'Crayon', 'Oil Paint', 'Acrilic Paint', 'Spray Paint',
+'Charcoal', 'Watercolor', 'Tempra', 'Gouache',]
+
+function newMedium(){
+  var randomNumber = Math.floor(Math.random() * (mediums.length));
+  document.getElementById('mediumDisplay').innerHTML = mediums[randomNumber]
+}
+
+
 // Animals
 var animals=[
   'Skunk', 'Racoon', 'Elephant', 'Turkey', 'Walrus', 'Dog', 'Bear', 'Penguin', 'Owl','frog', 'Beaver',

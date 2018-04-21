@@ -98,19 +98,34 @@
 
     <!-- Main Content -->
     <div class="container">
+      <h1>Let's Get Started</h1>
+      <p>This page is to help anyone who can't think of what to draw.</p>
+      <p>Mix and Match the categories, use what comes up, or just do you own thing.</p>
+      <h2>Medium</h2>
+      <div class="row midd">
+        <div class="resultDisplay" id="mediumDisplay">
+          <!-- animal will go here -->
+        </div>
+          <button class="btn btn-primary" onclick="newMedium()">Medium</button>
+      </div>
+      <div class="row"></div>
+
+
+
+
       <h2>Working Animals</h2>
       <br/>
       <div class="row">
 <!-- ANIMAL PROFESSION -->
           <div class="col midd">
-            <div id="animalDisplay">
+            <div class="resultDisplay" id="animalDisplay">
               <!-- animal will go here -->
             </div>
               <button class="btn btn-primary" onclick="newAnimal()">Animal</button>
           </div>
 
           <div class="col midd">
-            <div id="professionDisplay">
+            <div class="resultDisplay" id="professionDisplay">
               <!-- profession will go here -->
             </div>
               <button class="btn btn-primary" onclick="newProfession()">Professions</button>
@@ -127,14 +142,14 @@
 <!-- STYLE SUBJECT -->
 
          <div class="col midd">
-            <div id="styleDisplay">
+            <div class="resultDisplay" id="styleDisplay">
                 <!-- art style will go here -->
             </div>
             <button onclick="newStyle()" class="btn btn-primary">Art Style</button>
           </div>
 
           <div class="col midd">
-            <div id="subjectDisplay">
+            <div class="resultDisplay" id="subjectDisplay">
               <!-- art subject will go here -->
             </div>
             <button class="btn btn-primary" onclick="newSubject()">Rando Subject</button>
