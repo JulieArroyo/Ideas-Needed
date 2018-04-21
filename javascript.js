@@ -43,7 +43,9 @@ function newAnimal(){
 
 // professions
 var professions=[
-  'Theif', 'Doctor', 'Samurai', 'Super Hero', 'Detective'
+  'Theif', 'Doctor', 'Samurai', 'Super Hero', 'Nurse','Director','Cop', 'Firefighter','Pirate',
+   'Scientist','King','Queen','Teacher','Football Player','Ninja','Chef', 'Batman', 'Clown',
+   'Suba Diver', 'Waiter', 'Pilot', 'Flight Attendant', 'Coach', 'Musician', 'Detective', 'Astronaut', 'Santa'
 ]
 
 function newProfession(){
