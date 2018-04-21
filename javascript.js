@@ -1,14 +1,22 @@
 //Mediums
 var mediums=[
-  'Pencil', 'Colored Pencil', 'Marker', 'Chalk', 'Pastel',
-'Pen', 'Crayon', 'Oil Paint', 'Acrilic Paint', 'Spray Paint',
-'Charcoal', 'Watercolor', 'Tempra', 'Gouache',]
+  'Pencil', 'Colored Pencil', 'Marker', 'Chalk', 'Pastel', 'Pen', 'Crayon',]
 
 function newMedium(){
   var randomNumber = Math.floor(Math.random() * (mediums.length));
   document.getElementById('mediumDisplay').innerHTML = mediums[randomNumber]
 }
 
+//styles
+var styles=['Simpsons','South Park','Anime', 'Disney', 'Flinstones',
+'Bob\'s Burgers', 'Family Guy', 'Superhero', 'Adventure Time',
+'Garfield', 'Charlie Brown','Power Puff Girls', 'Final Space',
+'Dragon Ball', 'Casper', 'Looney Tunes', 'Doug','Johnny Bravo',]
+
+function newStyle(){
+  var randomNumber = Math.floor(Math.random() * (styles.length));
+  document.getElementById('styleDisplay').innerHTML = styles[randomNumber];
+}
 
 // Animals
 var animals=[
@@ -16,8 +24,6 @@ var animals=[
   'Fox', 'Cat', 'Ant', 'Bee','Fish', 'Caterpillar', 'Dolphin', 'Chicken', 'Shark', 'Mouse', 'Octopus',
   'Lion', 'Parrot', 'Crab', 'Seal', 'Goose', 'Whale','Goat', 'Lizard', 'Panda', 'Dinosaur','Hippo',
   'Hedgehog', 'Turtle', 'Fly', 'Peacock', 'Pig', 'Otter',]
-
-
 
 function newAnimal(){
   var randomNumber = Math.floor(Math.random() * (animals.length));
@@ -32,25 +38,4 @@ var professions=[
 function newProfession(){
   var randomNumber = Math.floor(Math.random() * (professions.length));
   document.getElementById('professionDisplay').innerHTML = professions[randomNumber]
-}
-
-
-// Styles of Art
-var styles=[
-'Realism', 'Impressionism', 'Abstract', 'Art Deco', 'Cubism', 'Surrealism',
-'Pop Art', 'Modern', 'Contemporary', 'Fantasy', 'Graffiti', 'Continuous Line', 'Blind']
-
-function newStyle(){
-  var randomNumber = Math.floor(Math.random() * (styles.length));
-  document.getElementById('styleDisplay').innerHTML = styles[randomNumber];
-}
-
-// Subjects of art
-var subjects=[
-'Seascape', 'Landscape', 'Cityscape', 'Meteor', 'Pineapple', 'Your Shoes',
-'Space Ship', 'Dinosaur', 'Big Ass Bird', 'Last Food You Ate', 'Favorite Celebrity']
-
-function newSubject(){
-  var randomNumber = Math.floor(Math.random() * (subjects.length));
-  document.getElementById('subjectDisplay').innerHTML = subjects[randomNumber];
 }
