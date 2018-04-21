@@ -1,3 +1,4 @@
+
 //cartoon subjects
 var subjects=[
   'Self Portrait', 'First person you see on Insta', 'Your Pet(s)', 'Last person you talked to',
@@ -18,7 +19,7 @@ function newMedium(){
   document.getElementById('mediumDisplay').innerHTML = mediums[randomNumber]
 }
 
-//styles
+//cartoon styles
 var styles=['Simpsons','South Park','Anime', 'Disney', 'Flinstones',
 'Bob\'s Burgers', 'Family Guy', 'Superhero', 'Adventure Time',
 'Garfield', 'Charlie Brown','Power Puff Girls', 'Final Space',
@@ -27,6 +28,35 @@ var styles=['Simpsons','South Park','Anime', 'Disney', 'Flinstones',
 function newStyle(){
   var randomNumber = Math.floor(Math.random() * (styles.length));
   document.getElementById('styleDisplay').innerHTML = styles[randomNumber];
+}
+//Sketch styles
+
+var sketches=[
+'Realism', 'Impressionism', 'Abstract', 'Art Deco', 'Cubism', 'Surrealism',
+'Pop Art', 'Modern', 'Contemporary', 'Fantasy', 'Graffiti', 'Continuous Line', 'Blind']
+
+function newSketch(){
+  var randomNumber = Math.floor(Math.random() * (sketches.length));
+  document.getElementById('sketchDisplay').innerHTML = sketches[randomNumber];
+}
+
+// Sketch what
+var objects =[
+  'Hands', 'Feet', 'Ears', 'Shoes', 'Favorite TV Character','Rocks','Trees',
+'Sandwhich', 'Ghost', 'Sword', 'Hotdog', 'Veggies','Ferris Wheel','Campfire'
+]
+function newObject(){
+  var randomNumber = Math.floor(Math.random() * (objects.length));
+  document.getElementById('objectDisplay').innerHTML = objects[randomNumber]
+}
+//quick sketch mediums
+var tools=[
+  'Pencil','Left Hand','Fire Pit Charcoal', 'Colored Pencil', 'Marker', 'Chalk',
+   'Pastel', 'Pen', 'Crayon', 'Dry Erase Marker',]
+
+function newTool(){
+  var randomNumber = Math.floor(Math.random() * (tools.length));
+  document.getElementById('toolDisplay').innerHTML = tools[randomNumber]
 }
 
 // Animals
@@ -51,4 +81,16 @@ var professions=[
 function newProfession(){
   var randomNumber = Math.floor(Math.random() * (professions.length));
   document.getElementById('professionDisplay').innerHTML = professions[randomNumber]
+}
+
+// random
+var pencils=[
+  'Pencil', 'Colored Pencil', 'Marker', 'Chalk', 'Pastel',
+  'Pen(ink)', 'Crayon','Oil Paint','Acrilic Paint', 'Spray Paint',
+  'Charcoal', 'Watercolor', 'Tempra', 'Gouache','Digital Pen', 'Mud','Ketchup',
+]
+
+function newPencil(){
+  var randomNumber = Math.floor(Math.random() * (pencils.length));
+  document.getElementById('pencilDisplay').innerHTML = pencils[randomNumber]
 }

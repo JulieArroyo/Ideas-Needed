@@ -79,7 +79,7 @@
           <div class="resultDisplay" id="mediumDisplay">
           <!-- Mediums will go here -->
           </div>
-            <button class="btn btn-primary" onclick="newMedium()">Draw With</button>
+            <button id="1" class="btn btn-primary" onclick="newMedium()">Draw With</button>
           </div>
 
           <div class="col-sm midd">
@@ -89,26 +89,56 @@
               <button class="btn btn-primary" onclick="newStyle()">In The Style of</button>
           </div>
       </div>
-      <div class="row"></div>
+
+      <br/>
+      <h2>Quick Sketch</h2>
+      <div class="row">
+        <div class="col midd">
+          <div class="resultDisplay" id="objectDisplay">
+            <!-- sketch object will go here -->
+          </div>
+            <button class="btn btn-primary" onclick="newObject()">Sketch What</button>
+        </div>
+        <div class="col-sm midd">
+          <div class="resultDisplay" id="toolDisplay">
+          <!-- Sketch Mediums will go here -->
+          </div>
+            <button id="2" class="btn btn-primary" onclick="newTool()">Sketch With</button>
+          </div>
+
+          <div class="col midd">
+            <div class="resultDisplay" id="sketchDisplay">
+              <!-- sketch style will go here -->
+            </div>
+              <button class="btn btn-primary" onclick="newSketch()">Artsy Style</button>
+          </div>
+      </div>
 
 
 
       <br/>
-      <h2>Mash Ups</h2>
+      <h2>Random Mash Ups</h2>
       <div class="row">
 <!-- ANIMAL PROFESSION -->
-          <div class="col midd">
+          <div class="col-sm midd">
             <div class="resultDisplay" id="animalDisplay">
               <!-- animal will go here -->
             </div>
               <button class="btn btn-primary" onclick="newAnimal()">Animal</button>
           </div>
 
-          <div class="col midd">
+          <div class="col-sm midd">
             <div class="resultDisplay" id="professionDisplay">
               <!-- profession will go here -->
             </div>
               <button class="btn btn-primary" onclick="newProfession()">Professions</button>
+          </div>
+
+          <div class="col-sm midd">
+            <div class="resultDisplay" id="pencilDisplay">
+              <!-- profession will go here -->
+            </div>
+              <button class="btn btn-primary" onclick="newPencil()">Using </button>
           </div>
 
 <!-- ANIMAL PROFESSION END -->
