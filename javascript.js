@@ -1,3 +1,14 @@
+//cartoon subjects
+var subjects=[
+  'Self Portrait', 'First person you see on Insta', 'Your Pet(s)', 'Last person you talked to',
+  'Favorite Celeb', 'Your Home', 'Your Car', 'Politician',' Happy Bee',' Worried Fish', 'Caterpillar', 'Dolphin',
+   'Chicken','Mouse', 'Octopus', 'Lion', 'Parrot',]
+
+function newSubject(){
+  var randomNumber = Math.floor(Math.random() * (subjects.length));
+  document.getElementById('subjectDisplay').innerHTML = subjects[randomNumber]
+}
+
 //Mediums
 var mediums=[
   'Pencil', 'Colored Pencil', 'Marker', 'Chalk', 'Pastel', 'Pen', 'Crayon',]
